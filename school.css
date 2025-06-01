@@ -1,0 +1,391 @@
+*{
+    margin: 5px;
+    padding: 0;
+    scrollbar-color: black;
+}
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    background-color: rgba(245, 127, 9, 0.354);
+}
+nav{
+    width: 100%;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header p{
+    font-weight: bolder;
+    color: blue;
+    text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+}
+a:hover{
+    color: blue;
+}
+.main{
+    height: 70vh;
+    /* background-color: white; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 50%;
+    /* align-items: center; */
+}
+.text{
+    width: 100%;
+    letter-spacing: 100%;
+}
+.text p{
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: lighter;
+}
+.text h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(5, 5, 145);
+    font-family: 'arial';
+    line-height: 1em;
+}
+.image{
+    width: 0.5px;
+}
+button{
+    margin-top: 20px;
+    background-color: white;
+    color: orangered;
+    padding: 10px 15px;
+    border-color: orangered;
+}
+button:hover{
+    color: white;
+    background-color: orangered;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: right; */
+}
+
+.offer{
+    width: 50%;
+}
+.offer h4{
+    color: orangered;
+    font-size: 20px;
+    font-family: 'arial';
+    font-weight: lighter;
+    padding-top: 50px;
+}
+.offer h1{
+    color: black;
+    font-size: 60px;
+    font-family: 'arial';
+}
+.offer p{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.box button{
+    background-color: rgb(5, 5, 145);
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    text-decoration: bolder;
+    font-size: 20px;
+    font-weight: bold;
+}
+.xob button{
+    background-color: orangered;
+    margin-left: 1px;
+}
+.obx button{
+    background-color: orangered;
+    margin-left: 1px;
+}
+.third{
+    display: flex;
+}
+.list ol{
+    list-style-type: square;
+    justify-content: space-between;
+    margin-left: 0px;
+    width: 100%;
+    line-height: 3.5em;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'arial';
+}
+.list ol li{
+    border-bottom: 2px dotted black;
+}
+.pic img{
+    width: 600px;
+    padding-top: 40px;
+}
+.test{
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.offer .test h2{
+    color: rgb(5, 5, 145);
+    font-size: 50px;
+    font-family: 'Mt script';
+} 
+.offer .test p{
+    font-style: italic;
+}
+.offer .test h5{
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.bimain{
+    height: 30vh;
+}
+.page .shool img{
+    padding-top: 200px;
+    margin-right: 400px;
+}
+.page .Our h3{
+    /* font-weight: lighter; */
+    font-family: 'arial';
+}
+.page .Our p{
+    padding-right: 100px;
+    /* font-style: italic; */
+}
+.page .Associates{
+    align-items: center;
+    justify-content: center;
+    padding-right: 500px;
+}
+ .comain{
+    height: 38vh;
+    background-color: rgb(5, 5, 145);
+    border-radius: 50px 60px 0 0;
+    margin-bottom: none;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+}
+.last .Contact h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.last .Contact p{
+    padding-bottom: 10px;
+}
+.last .quick h4{
+    font-weight: bold;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+.last .quick ol{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.last .form :placeholder-shown{
+    padding: 10px 25px;
+}
+.last .form button{
+    color: white;
+    background-color: orangered;
+    border-color: none;
+    padding: 10px 15px;
+} */
+
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+
+
+
+Contact Section Styles
+.contact {
+    flex: 1;
+    padding: 20px;
+}
+.contact a {
+    color: orangered;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: rgb(5, 5, 145);
+    text-decoration: underline;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    margin-right: 10px;
+}
+
+/* Quick Links Styles */
+.quick {
+    flex: 1;
+    padding: 20px;
+}
+.quick ul {
+    list-style: none;
+    padding: 0;
+}
+.quick ul li {
+    margin-bottom: 10px;
+}
+.quick ul li a {
+    text-decoration: none;
+    color: orangered;
+}
+.quick ul li a:hover {
+    color: rgb(5, 5, 145);
+}
+footer{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    padding-top: none;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .all, .page {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text h1 {
+        font-size: 50px;
+    }
+    .image img {
+        width: 80%;
+    }
+    .offer h1 {
+        font-size: 40px;
+    }
+    .list ol {
+        padding: 0;
+    }
+    .list ol li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header p {
+        font-size: 12px;
+        text-align: center;
+    }
+    nav ul li {
+        margin-left: 20px;
+    }
+    .text h1 {
+        font-size: 35px;
+    }
+    .list ol li {
+        font-size: 14px;
+    }
+}
+
+/* Back-to-Top Button */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#backToTop:hover {
+    background-color: rgb(5, 5, 145);
+}
+
+/* Carousel Styles */
+.testimonials-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.testimonial {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+.testimonial.active {
+    display: block;
+}
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire area */
+    z-index: -1; /* Places video behind content */
+}
+.video-background p{
+    text-align: center;
+}
